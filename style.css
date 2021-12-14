@@ -1,0 +1,44 @@
+  /* background-color: black;
+  background-image: url(City_Landscape_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll; */
+body{
+  background: #000000 url(City_Landscape_Background.jpg) no-repeat scroll center;
+  background-size: cover;
+  height: 750px;
+}
+/* border-width: 10px 50px;
+  border-style: solid;
+  border-color:#000000; */
+h1{
+  font-family:Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  padding: 10px;
+  border:10px solid #4f024b;
+  border-radius: 25px;
+  background-color: #7d0a7f;
+}
+p{
+  color: white;
+  margin: 25px 50px 75px 100px;
+  font-size: 36px;
+}
+div{
+  padding: 25px 50px 75px 100px;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
